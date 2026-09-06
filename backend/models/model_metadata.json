@@ -1,0 +1,29 @@
+{
+  "model_name": "RandomForestRegressor",
+  "features": [
+    "rainfall",
+    "temperature",
+    "humidity",
+    "soil_moisture"
+  ],
+  "target": "yield",
+  "cv_rmse": 0.56693050851918,
+  "test_rmse": 0.5321996804361844,
+  "feature_importances": {
+    "rainfall": 0.40203927905899345,
+    "temperature": 0.0997589169014601,
+    "humidity": 0.22749512857463644,
+    "soil_moisture": 0.27070667546491
+  },
+  "risk_thresholds": {
+    "low_yield_threshold": 1.44166,
+    "high_yield_threshold": 1.83396
+  },
+  "training_rows": 18,
+  "field": {
+    "name": "Belagavi Demo Field",
+    "lat": 15.8497,
+    "lon": 74.4977,
+    "crop": "Rice/Paddy"
+  }
+}

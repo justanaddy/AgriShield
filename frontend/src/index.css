@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+  color: #111;
+  background: #fff;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0 0.3em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+.section {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 280px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tabs button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.risk-Low { color: green; font-weight: bold; }
+.risk-Medium { color: orange; font-weight: bold; }
+.risk-High { color: red; font-weight: bold; }
+
+.alert-box {
+  border: 1px solid #c00;
+  background: #fee;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: #666;
+  font-size: 13px;
+}
+
+button.primary {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
